@@ -24,3 +24,9 @@ x = N a
 # Windows
 python.exe main.py
 ```
+
+### 精度
+
+数学ではないからか、精度で見てみるぜ（＾～＾）  
+
+![20220128go50.png](./doc/20220128go50.png)  
