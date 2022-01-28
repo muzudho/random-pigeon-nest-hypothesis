@@ -9,6 +9,9 @@ def play(N, trial):
 
     for _i in range(0, trial):
         ball_number = rnd.randrange(0, N)
+        if ball_number == N:
+            raise ValueError("0<=i<N だと思った（＾～＾）")
+
         used_numbers[ball_number] += 1
 
     return used_numbers
