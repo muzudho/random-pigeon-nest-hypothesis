@@ -30,4 +30,4 @@ if __name__ == "__main__":
         if 0 < missing_ball_num:
             failure += 1
             print(
-                f"{time_stamp()} N={N} Fail. There are {missing_ball_num} missing balls. rate={missing_ball_num/N}. (Failure count={failure} Success rate={(N-failure)/N})")
+                f"{time_stamp()} N={N} Fail. There are {missing_ball_num} missing balls. (Failure count={failure} Success rate={(N-failure)/N})")
