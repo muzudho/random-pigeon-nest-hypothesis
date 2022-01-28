@@ -17,9 +17,19 @@ def play(N, trial):
     return used_numbers
 
 
-def is_fill(used_numbers):
+# def is_fill(used_numbers):
+#    for volume in used_numbers:
+#        if volume < 1:
+#            return False
+#
+#    return True
+
+
+def count_missing_ball(used_numbers):
+    """0個だったボール（数）の数"""
+    zero = 0
     for volume in used_numbers:
         if volume < 1:
-            return False
+            zero += 1
 
-    return True
+    return zero
