@@ -1,7 +1,7 @@
-import random
+from random import seed, randrange
 
-# 乱数
-rnd = random.SystemRandom()
+# 乱数の種
+seed() 
 
 
 def play(N, trial):
@@ -9,7 +9,7 @@ def play(N, trial):
     not_used_ball_num = N
 
     for _i in range(0, trial):
-        ball_number = rnd.randrange(0, N)
+        ball_number = randrange(0, N)
         if ball_number == N:
             raise ValueError("0<=i<N だと思った（＾～＾）")
 
