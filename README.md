@@ -214,6 +214,18 @@ C:\GitHub\random-pigeon-nest-hypothesis>python.exe main.py
 [2022-01-29 12:27:15] N=78718 Fail. There are 1 missing balls. (Failure count=98 Success rate=0.9987550496709774)
 [2022-01-29 12:33:42] N=79000 ok (Failure count=98 Success rate=0.9987594936708861)
 [2022-01-29 12:43:27] N=79420 Fail. There are 1 missing balls. (Failure count=99 Success rate=0.9987534626038781)
+[2022-01-29 12:50:50] N=79740 Fail. There are 1 missing balls. (Failure count=100 Success rate=0.9987459242538249)
+[2022-01-29 12:56:48] N=80000 ok (Failure count=100 Success rate=0.99875)
+[2022-01-29 12:58:11] N=80061 Fail. There are 1 missing balls. (Failure count=101 Success rate=0.9987384619227839)
+[2022-01-29 13:06:27] N=80424 Fail. There are 1 missing balls. (Failure count=102 Success rate=0.9987317218740674)
+[2022-01-29 13:19:45] N=81000 ok (Failure count=102 Success rate=0.9987407407407407)
+[2022-01-29 13:19:57] N=81009 Fail. There are 1 missing balls. (Failure count=103 Success rate=0.9987285363354689)
+[2022-01-29 13:28:49] N=81397 Fail. There are 1 missing balls. (Failure count=104 Success rate=0.9987223116331069)
+[2022-01-29 13:33:32] N=81605 Fail. There are 1 missing balls. (Failure count=105 Success rate=0.9987133141351633)
+[2022-01-29 13:42:29] N=82000 ok (Failure count=105 Success rate=0.998719512195122)
+[2022-01-29 13:48:07] N=82249 Fail. There are 1 missing balls. (Failure count=106 Success rate=0.9987112305316782)
+[2022-01-29 13:50:33] N=82354 Fail. There are 1 missing balls. (Failure count=107 Success rate=0.9987007309906015)
+[2022-01-29 13:50:49] N=82366 Fail. There are 1 missing balls. (Failure count=108 Success rate=0.998688779350703)
 ```
 
 👆 ボール１個分ぐらいの誤差しかない（＾～＾）  

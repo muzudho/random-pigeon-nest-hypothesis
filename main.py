@@ -1,7 +1,7 @@
 import datetime
 
 from pigeon import trial_count
-from lottery import play, count_missing_ball
+from lottery import play
 
 
 def time_stamp():
@@ -16,18 +16,15 @@ if __name__ == "__main__":
         N += 1
         trial = trial_count(N)
 
-        used_numbers = play(N, trial)
-        # print(f"used_numbers={used_numbers}") # Nがでかくなると大変なことになる
-
-        missing_ball_num = count_missing_ball(used_numbers)
+        not_used_ball_num = play(N, trial)
 
         # 定期的な報告
         if N % 1000 == 0:
-            if missing_ball_num < 1:
+            if not_used_ball_num < 1:
                 print(
                     f"{time_stamp()} N={N} ok (Failure count={failure} Success rate={(N-failure)/N})")
         # 失敗報告
-        if 0 < missing_ball_num:
+        if 0 < not_used_ball_num:
             failure += 1
             print(
-                f"{time_stamp()} N={N} Fail. There are {missing_ball_num} missing balls. (Failure count={failure} Success rate={(N-failure)/N})")
+                f"{time_stamp()} N={N} Fail. I didn't take out the {not_used_ball_num} balls. (Failure count={failure} Success rate={(N-failure)/N})")

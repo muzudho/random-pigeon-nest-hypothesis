@@ -5,31 +5,19 @@ rnd = random.SystemRandom()
 
 
 def play(N, trial):
-    used_numbers = [0] * N
+    not_used_balls = [True] * N
+    not_used_ball_num = N
 
     for _i in range(0, trial):
         ball_number = rnd.randrange(0, N)
         if ball_number == N:
             raise ValueError("0<=i<N だと思った（＾～＾）")
 
-        used_numbers[ball_number] += 1
+        if not_used_balls[ball_number]:
+            not_used_ball_num -= 1
+            not_used_balls[ball_number] = False
 
-    return used_numbers
+        if not_used_ball_num == 0:
+            break  # 全てのボールを引いたので終わります
 
-
-# def is_fill(used_numbers):
-#    for volume in used_numbers:
-#        if volume < 1:
-#            return False
-#
-#    return True
-
-
-def count_missing_ball(used_numbers):
-    """0個だったボール（数）の数"""
-    zero = 0
-    for volume in used_numbers:
-        if volume < 1:
-            zero += 1
-
-    return zero
+    return not_used_ball_num
