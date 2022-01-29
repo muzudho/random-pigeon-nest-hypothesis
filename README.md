@@ -191,9 +191,32 @@ C:\GitHub\random-pigeon-nest-hypothesis>python.exe main.py
 [2022-01-29 09:57:06] N=72000 ok (Failure count=81 Success rate=0.998875)
 [2022-01-29 10:17:56] N=72961 Fail. There are 1 missing balls. (Failure count=82 Success rate=0.9988761118953962)
 [2022-01-29 10:18:48] N=73000 ok (Failure count=82 Success rate=0.9988767123287671)
-```
+[2022-01-29 10:40:36] N=74000 ok (Failure count=82 Success rate=0.9988918918918919)
+[2022-01-29 10:57:32] N=74752 Fail. There are 1 missing balls. (Failure count=83 Success rate=0.9988896618150684)
+[2022-01-29 11:03:08] N=74999 Fail. There are 1 missing balls. (Failure count=84 Success rate=0.9988799850664676)
+[2022-01-29 11:03:09] N=75000 ok (Failure count=84 Success rate=0.99888)
+[2022-01-29 11:04:47] N=75072 Fail. There are 1 missing balls. (Failure count=85 Success rate=0.9988677536231884)
+[2022-01-29 11:06:39] N=75155 Fail. There are 1 missing balls. (Failure count=86 Success rate=0.998855698223671)
+[2022-01-29 11:12:47] N=75430 Fail. There are 1 missing balls. (Failure count=87 Success rate=0.9988466127535464)
+[2022-01-29 11:14:50] N=75521 Fail. There are 1 missing balls. (Failure count=88 Success rate=0.9988347611922511)
+[2022-01-29 11:16:52] N=75612 Fail. There are 1 missing balls. (Failure count=89 Success rate=0.9988229381579643)
+[2022-01-29 11:25:36] N=76000 ok (Failure count=89 Success rate=0.9988289473684211)
+[2022-01-29 11:26:50] N=76054 Fail. There are 1 missing balls. (Failure count=90 Success rate=0.9988166302890051)
+[2022-01-29 11:31:43] N=76271 Fail. There are 1 missing balls. (Failure count=91 Success rate=0.998806885972388)
+[2022-01-29 11:47:01] N=76945 Fail. There are 1 missing balls. (Failure count=92 Success rate=0.9988043407628826)
+[2022-01-29 11:48:17] N=77000 ok (Failure count=92 Success rate=0.9988051948051948)
+[2022-01-29 11:55:26] N=77319 Fail. There are 1 missing balls. (Failure count=93 Success rate=0.9987971908586505)
+[2022-01-29 11:56:26] N=77363 Fail. There are 1 missing balls. (Failure count=94 Success rate=0.9987849488773703)
+[2022-01-29 12:04:54] N=77737 Fail. There are 1 missing balls. (Failure count=95 Success rate=0.9987779307151035)
+[2022-01-29 12:10:52] N=78000 ok (Failure count=95 Success rate=0.9987820512820513)
+[2022-01-29 12:16:35] N=78252 Fail. There are 1 missing balls. (Failure count=96 Success rate=0.9987731942953535)
+[2022-01-29 12:21:31] N=78467 Fail. There are 1 missing balls. (Failure count=97 Success rate=0.9987638115386086)
+[2022-01-29 12:27:15] N=78718 Fail. There are 1 missing balls. (Failure count=98 Success rate=0.9987550496709774)
+[2022-01-29 12:33:42] N=79000 ok (Failure count=98 Success rate=0.9987594936708861)
+[2022-01-29 12:43:27] N=79420 Fail. There are 1 missing balls. (Failure count=99 Success rate=0.9987534626038781)```
 
 👆 「N=73000 ぐらいの小さな数を調べたところで意味なくて、 N が大きくなると定数倍ではなく比例して ボールをもっと投げなければいけなくなるんだ」と言われるが本当か、というのが争点だぜ（＾～＾）  
+そんなん言っても Pythonスクリプトを走らせて 反例が出るまで待つぐらいしか わたしには確認の手段が無い……（＾～＾） メモリが尽きそう（＾～＾） タスケテ数学マン（＾～＾）！  
 
 ### 理論
 
